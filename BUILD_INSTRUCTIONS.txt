@@ -1,0 +1,13 @@
+// Makefiles will be added in future updates
+
+1) Download the repository.
+
+2) Install SDL2 on your system.
+
+3) Open src folder in the terminal.
+
+4) Run following commands with gcc compiler:
+g++ -o main -Wall -pedantic main.cpp image.cpp buffer.cpp display.cpp -lSDL2 process_user_commands.cpp print_memory.cpp IP_change_brightness.cpp IP_extract_channel.cpp IP_histogram.cpp IP_monochrome.cpp IP_quantize.cpp IP_rotate.cpp -O3
+
+5) Start program by typing ./main in the terminal
+

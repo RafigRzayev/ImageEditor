@@ -5,7 +5,7 @@ buffer.cpp - implementation of class methods
 logger.hpp - singleton logger to track the class behaviour
 logs_buffer.hpp - collection of messages to be used for logging the buffer
 image.hpp - Buffer objects
-print_memory.hpp - prints memory indicator based on its value - in Bytes, kB, MB, GB etc.
+helper_functions.hpp - to print memory indicator based on its value - in Bytes, kB, MB, GB etc.
 <iostream> - to print buffer information to console
 <list> - std::list is used for modelling the Image Buffer*/
 

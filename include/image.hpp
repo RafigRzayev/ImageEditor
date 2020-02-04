@@ -4,6 +4,7 @@ image.hpp - info about the class
 image.cpp - implementation of class methods
 logger.hpp - singleton logger to track the class behaviour
 image_logs.hpp - collection of messages to be used for logging the image class
+helper_functions.hpp - to print memory indicator based on its value - in Bytes, kB, MB, GB etc.
 <iostream> - to print image information to console
 stb_image.h - image loading -> https://github.com/nothings/stb/blob/master/stb_image.h
 stb_image_write.h - image writing -> https://github.com/nothings/stb/blob/master/stb_image_write.h*/

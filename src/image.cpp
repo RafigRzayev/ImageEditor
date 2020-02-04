@@ -5,7 +5,7 @@
 #include "../include/image.hpp"
 #include "../include/logger.hpp"
 #include "../include/logs_image.hpp"
-#include "../include/print_memory.hpp"
+#include "../include/helper_functions.hpp"
 #define STB_IMAGE_IMPLEMENTATION
 #include "../include/stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION

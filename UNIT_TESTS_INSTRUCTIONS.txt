@@ -1,0 +1,13 @@
+// Makefiles will be added in future updates
+
+1) Download the repository.
+
+2) Install SDL2 on your system.
+
+3) Open src folder in the terminal.
+
+4) Run following commands with gcc compiler:
+g++ -o main -Wall -pedantic unit_tests.cpp image.cpp helper_functions.cpp IP_rotate.cpp test_rotation.cpp
+
+5) Start tests by typing ./main in the terminal
+

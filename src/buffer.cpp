@@ -4,7 +4,7 @@
 #include "../include/logs_buffer.hpp"
 #include "../include/image.hpp"
 #include "../include/logger.hpp"
-#include "../include/print_memory.hpp"
+#include "../include/helper_functions.hpp"
 #include <iostream>
 #include <list>
 

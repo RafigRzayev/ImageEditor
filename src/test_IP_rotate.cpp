@@ -7,7 +7,17 @@
 // Returns true if rotation works correctly
 bool test_rotation() {
 
-// TESTS FOR MONOCHROME IMAGES 
+// EXCEPTION TESTS
+
+  // Invalid input image
+  Image invalid_mono{5, 3, 4, nullptr};
+  Image invalid_mono_copy{5, 3, 4, nullptr};
+  rotate_clockwise(invalid_mono);
+  if (are_different(invalid_mono, invalid_mono_copy)) {
+    return false;
+  }  
+
+// FUNCTIONALITY TESTS FOR MONOCHROME IMAGES 
 
   // Generate 5 x 4 monochrome image
   unsigned char *mono = new unsigned char[20]{
@@ -75,7 +85,7 @@ bool test_rotation() {
     return false;
   }
 
-// TESTS FOR RGB IMAGES 
+// FUNCTIONALITY TESTS FOR RGB IMAGES 
 
   // Generate 2 x 3 RGB image
   unsigned char *rgb = new unsigned char[18]{
@@ -139,5 +149,6 @@ bool test_rotation() {
     return false;
   }
   
-  return true; // All tests has been passed
+  // All tests have been passed
+  return true; 
 }

@@ -64,3 +64,15 @@ bool are_different(const Image &IM1, const Image &IM2) {
   }
   return false;  // No difference found, images are same
 }
+
+// Deallocates memory from sequence of image pointers
+void free_img_ptr_sequence(Image **img_ptr_sequence, const size_t SIZE) {
+  Image **begin = img_ptr_sequence;
+  Image **const end = img_ptr_sequence + SIZE;
+  while (begin != end) {
+    if(begin != nullptr){
+        delete *begin;
+    }
+    ++begin;
+  }
+}

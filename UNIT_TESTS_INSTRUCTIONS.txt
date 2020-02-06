@@ -7,7 +7,7 @@
 3) Open src folder in the terminal.
 
 4) Run following commands with gcc compiler:
-g++ -o main -Wall -pedantic unit_tests.cpp image.cpp helper_functions.cpp IP_rotate.cpp test_IP_rotate.cpp IP_change_brightness.cpp test_IP_change_brightness.cpp
+g++ -o main -Wall -pedantic unit_tests.cpp image.cpp helper_functions.cpp IP_rotate.cpp test_IP_rotate.cpp IP_change_brightness.cpp test_IP_change_brightness.cpp IP_monochrome.cpp test_IP_monochrome.cpp
 
 5) Start tests by typing ./main in the terminal
 

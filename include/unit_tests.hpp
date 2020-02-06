@@ -6,3 +6,6 @@ bool test_rotation();
 // Returns true if brightness change works correctly
 bool test_change_brightness();
 
+// Returns true if monochrome transformation works correctly
+bool test_monochrome();
+

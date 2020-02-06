@@ -61,5 +61,6 @@ bool test_monochrome() {
   }
 
   // All tests have been passed
+  delete mono;
   return true;
 }

@@ -2,7 +2,7 @@
 
 1) Download the repository.
 
-2) Install SDL2 on your system.
+2) Install SDL2 on your system( sudo apt-get install libsdl2-dev)
 
 3) Open src folder in the terminal.
 

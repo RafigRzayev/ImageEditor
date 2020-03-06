@@ -2,14 +2,14 @@
 
 #include <iostream>
 #include <string>
-#include "../include/image.hpp"
-#include "../include/logger.hpp"
-#include "../include/logs_image.hpp"
-#include "../include/helper_functions.hpp"
+#include "image.hpp"
+#include "logger.hpp"
+#include "logs_image.hpp"
+#include "helper_functions.hpp"
 #define STB_IMAGE_IMPLEMENTATION
-#include "../include/stb_image.h"
+#include "stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "../include/stb_image_write.h"
+#include "stb_image_write.h"
 
 // Refer to logs_image.hpp for logging info
 static Logger &logs = Logger::get_instance();

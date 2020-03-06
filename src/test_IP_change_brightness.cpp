@@ -1,7 +1,7 @@
-#include "../include/helper_functions.hpp"
-#include "../include/image.hpp"
-#include "../include/image_processing.hpp"
-#include "../include/unit_tests.hpp"
+#include "helper_functions.hpp"
+#include "image.hpp"
+#include "image_processing.hpp"
+#include "unit_tests.hpp"
 #include <iostream>
 
 // Returns true if brightness change function works correctly

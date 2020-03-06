@@ -1,6 +1,6 @@
-#include "../include/image_processing.hpp"
-#include "../include/logger.hpp"
-#include "../include/logs_image_processing.hpp"
+#include "image_processing.hpp"
+#include "logger.hpp"
+#include "logs_image_processing.hpp"
 
 // All reversible algorithms change the input image.
 // They return boolean representing successfull update

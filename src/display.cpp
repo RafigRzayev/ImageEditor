@@ -1,9 +1,9 @@
 /*************************************** DISPLAY CLASS IMPLEMENTATION **************************************/
 
-#include "../include/display.hpp"
-#include "../include/image.hpp"
-#include "../include/logger.hpp"
-#include "../include/logs_display.hpp"
+#include "display.hpp"
+#include "image.hpp"
+#include "logger.hpp"
+#include "logs_display.hpp"
 #include <SDL2/SDL.h>
 
 // Refer to logs_display.hpp for logging info

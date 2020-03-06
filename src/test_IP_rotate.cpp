@@ -1,7 +1,7 @@
-#include "../include/unit_tests.hpp"
-#include "../include/image.hpp"
-#include "../include/image_processing.hpp"
-#include "../include/helper_functions.hpp"
+#include "unit_tests.hpp"
+#include "image.hpp"
+#include "image_processing.hpp"
+#include "helper_functions.hpp"
 #include <iostream>
 
 // Returns true if rotation works correctly

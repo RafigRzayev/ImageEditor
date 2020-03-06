@@ -1,4 +1,4 @@
-#include "../include/unit_tests.hpp"
+#include "unit_tests.hpp"
 #include <iostream>
 
 int main() {

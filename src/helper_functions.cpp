@@ -1,4 +1,4 @@
-#include "../include/helper_functions.hpp"
+#include "helper_functions.hpp"
 
 #include <iomanip>
 #include <iostream>

@@ -1,10 +1,10 @@
 /***************************************** User Interface Handling *****************************************/
 
-#include "../include/buffer.hpp"
-#include "../include/image.hpp"
-#include "../include/image_processing.hpp"
-#include "../include/logger.hpp"
-#include "../include/process_user_commands.hpp"
+#include "buffer.hpp"
+#include "image.hpp"
+#include "image_processing.hpp"
+#include "logger.hpp"
+#include "process_user_commands.hpp"
 #include <iostream>
 #include <string>
 

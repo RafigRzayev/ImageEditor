@@ -1,6 +1,6 @@
-#include "../include/buffer.hpp"
-#include "../include/display.hpp"
-#include "../include/process_user_commands.hpp"
+#include "buffer.hpp"
+#include "display.hpp"
+#include "process_user_commands.hpp"
 
 Display &Display = Display::get_instance();
 

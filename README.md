@@ -7,6 +7,7 @@ It supports 1/3 channel JPEG input.
 User can load/save an image and perform image processing operations. 
 Image output is rendered on the screen. 
 User interface is through console. 
+Currently works only on Linux. Under development. 
 
 __DEPENDENCIES__:
 

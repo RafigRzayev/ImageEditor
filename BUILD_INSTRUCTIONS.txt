@@ -8,9 +8,9 @@
 
 4) Type "cmake ../src", afterwards type "make"
 
-6) Start program by typing "./ImageEditor"
+5) Start program by typing "./ImageEditor"
 
-7) Use the command line to interface with the program
+6) Use the command line to interface with the program
      You can start by loading the default image: 
      - Select "Load" option
      - Type "../gallery/default.jpg"

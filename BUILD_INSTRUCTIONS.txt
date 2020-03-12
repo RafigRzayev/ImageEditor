@@ -1,13 +1,17 @@
-// Makefiles will be added in future updates
+1) Go to the terminal
 
-1) Download the repository.
+2) Type "sudo apt install cmake libsdl2-dev g++ git" to download the dependencies
 
-2) Install SDL2 on your system( sudo apt-get install libsdl2-dev)
+3) Type "git clone https://github.com/RafigRzayev/ImageEditor" to download the repository
 
-3) Open src folder in the terminal.
+3) Go to the "build" folder
 
-4) Run following commands with gcc compiler:
-g++ -o main -Wall -pedantic main.cpp image.cpp buffer.cpp display.cpp -lSDL2 process_user_commands.cpp helper_functions.cpp IP_change_brightness.cpp IP_extract_channel.cpp IP_histogram.cpp IP_monochrome.cpp IP_quantize.cpp IP_rotate.cpp -I ../include -O3
+4) Type "cmake ../src", afterwards type "make"
 
-5) Start program by typing ./main in the terminal
+5) Start program by typing "./ImageEditor"
+
+6) Use the command line to interface with the program
+     You can start by loading the default image: 
+     - Select "Load" option
+     - Type "../gallery/default.jpg"
 

@@ -1,8 +1,6 @@
-cmake_minimum_required(VERSION "3.10.2")
 project(ImageEditor)
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS}, ../include)
-set(CMAKE_CXX_FLAGS "-pedantic -Wall -O3")
 add_executable(
     ImageEditor
     main.cpp

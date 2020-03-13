@@ -1,17 +1,26 @@
-1) Go to the terminal
+1) INSTALL DEPENDENCIES:
+Make sure your system has following prerequisites:  
+ - git -> to download the project from github
+ - C++ compilator (i.e. g++)
+ - cmake -> to build the project
+ - SDL2 -> rendering library
 
-2) Type "sudo apt install cmake libsdl2-dev g++ git" to download the dependencies
+You can install the dependencies by typing following command in the terminal:
+"sudo apt install cmake libsdl2-dev g++ git"
 
-3) Type "git clone https://github.com/RafigRzayev/ImageEditor" to download the repository
+2) DOWNLOAD THE PROJECT: 
+You can download the repository by typing following command in the terminal:
+"git clone https://github.com/RafigRzayev/ImageEditor"
 
-3) Go to the "build" folder
+3) BUILD THE PROJECT
+Go to the "build" folder.
+Type following command in the terminal
+"cmake .. && make"
 
-4) Type "cmake ../src", afterwards type "make"
-
-5) Start program by typing "./ImageEditor"
-
-6) Use the command line to interface with the program
-     You can start by loading the default image: 
-     - Select "Load" option
-     - Type "../gallery/default.jpg"
+4) USE THE PROGRAM
+Go to the bin folder.
+Type ./ImageEditor to start the program
+You can start by loading the default image: 
+- Choose "Load" option
+- Type "../gallery/default.jpg"
 
